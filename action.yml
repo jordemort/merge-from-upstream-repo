@@ -46,5 +46,4 @@ runs:
         git config user.name "${{ inputs.username }}"
         git checkout ${{ inputs.branch }}
         git merge --allow-unrelated-histories upstream/${{ inputs.upstream-branch }}
-        git push 
       shell: bash
